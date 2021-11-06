@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>RumboNaturaleza - Contacto</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="imagenes/logogeneral.svg" alt="logo general"> <!--OJO QUQE AHORITA EL LOGO O SE VE !! RESOLVER-->
+            </a>
+        </div>
+
+        <nav class= "header__navbar">
+            <ul>
+                <li><a class="link" href="index.html">Inicio</a></li>
+                <li><a class="link" href="actividades.html">Actividades</a></li>
+                <li><a class="link" href="sobreNosotros.html">Sobre Nosotrxs</a></li>
+                <li><a class="link" href="merch.html">Merch</a></li>
+                <li><a class="link" href="contacto.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Gracias por tu interés en contactarnos</h1>
+        <div class="mainText">
+            <p>Déjanos tus datos y tu mensaje y nuestro equipo de especialistas se pondrá en contacto de inmediato</p>
+            <form>
+                <fieldset>
+                    <Legend>Datos de Contacto y Mensaje</Legend>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="nombre" name="nombre" id="nombre" placeholder="inserte su nombre">
+                    <br/><br/>
+
+                    <label for="fecha">Fecha de Nacimiento</label>
+                    <input type="date" name="fecha" id="fecha" plceholder="inserte su fecha de nacimiento">
+                    <br/><br/>
+
+                    <label for="pais">País de Orígen</label>
+                    <input type="pais" name="pais" id="pais" placeholder="inserte su país de proedencia">
+                    <br/><br/>
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="inserte su e-mail">
+                    <br/><br/>
+
+                    <label for="password">Password</label>
+                    <input type="password" name="pais" id="password" placeholder="inserte su password">
+                    <br/><br/>
+
+                    <label for="género">¿Con qué género te identificas?</label>
+                        <div>Hombre</div>    
+                        <input type="radio" name="género" id="hombre"> 
+                        <div>Mujer</div>
+                        <input type="radio" name="género" id="mujer">
+                        <div>No binario</div>
+                        <input type="radio" name="género" id="no binario"> 
+                        <br/>
+                        <br/>
+                    <label for="actividad">¿En qué actividad estás interesad@?</label>
+                    <select name="actividad" id="actividad">
+                        <option value= "Es">Escalada</option>
+                        <option value= "BT">BiciTour</option>
+                        <option value= "Se">Senderismo</option>
+                    </select>
+                    <br/><br/>
+
+                    <label for="mensaje"><b>Deje su mensaje y nos pondremos en contacto en 24h máximo</b></label>
+                    <br/>
+                    <textarea name="mensaje" id="mensaje" placeholder="escriba su mensaje aquí" cols="60" rows="20"></textarea>
+                    <br/><br/>
+
+                    <label for="aceptarTerminos">¿Acepta usted los términos y condiciones?</label>
+                    <input type="checkbox" name="aceptar" id="aceptar" value="1">
+                    <br/><br/>
+                    
+                    <input type="submit" value="enviar formulario">
+                
+                    <input type="reset" value="limpiar formulario">
+
+                </fieldset>
+
+            </form>
+        </div>
+    </section>
+    
+    <footer class="piePag">
+        <hr>
+        <p class= "piePag piePag__p">!Desafío Desbloqueado! visita <a href="https://www.coderhouse.com.mx/" target="blank">CODERHOUSE</a> para más información </p> 
+        <a href="">RRSS</a>
+        <a href="">Aviso Legal</a>
+    </footer>
+</body>
+</html>

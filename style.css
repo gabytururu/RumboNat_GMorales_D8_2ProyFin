@@ -1,0 +1,184 @@
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+.frontPageBanner {
+    height: 95vh;
+    background-image: url("imagenes/colin-lloyd-MA5QbLODNjs-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color:whitesmoke;
+}
+
+.bannerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+    height:750px;
+    font-size: 20px; 
+}
+
+.header__navbar {
+    background-color: brown;
+    color:white;
+    text-align: center;
+    position:fixed;
+    height:60px;
+    top: 0;
+    min-width: 100vw;
+    z-index: 1; 
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    /*y que paso con el logo*/
+    /* no logro corregir la dist del menu aun:( se concentra solo al centro*/
+
+    
+}
+    
+.link{
+    text-decoration:none;
+    color: white;
+    background-color: red;
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight:bold;
+    padding-left:90px; /*resuleto por ahora pero debe haber un mejor modo directo con flexbox*/
+    /* width:800px;  /*wtf pq no jala esta funcion?? */
+    
+    
+    /* display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; */
+    /* height: 60px;
+    width: 300px; */
+    /* flex-wrap: wrap; */ /*lo raro aca es que funciona igual con o sin wrap.. pq?*/
+
+}
+
+/* display:flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+    align-items:center;
+    background-color: brown;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 25px;
+    border-radius:20px;  */
+  
+.link:hover{
+    color: rgb(62, 238, 209);
+    box-shadow: 0px 2px 0px white; 
+}
+
+
+ul li {
+    list-style-type: none;
+    display:inline-block;
+    /* width: 18%; */
+    font-size: 20px;
+} 
+
+h1 {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 600%; 
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(125, 253, 232)
+    /* color:rgb(12, 224, 189);    */
+}
+
+h2 {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight:bold;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 250%;
+}
+
+h3 {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-size: 150%;
+    line-height: 3.5;
+    color: rgb(34, 156, 136);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.insertsExternos{
+    height: 80vh;
+    padding: 50px;
+    margin-left:0px;
+    margin-right:0px;
+    background-image: url("imagenes/colin-lloyd-MA5QbLODNjs-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.mainText {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.calloutInicio {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.callout__box{  /* no entiendo que pasa con esto o pq no jala bien -- tendra q ver con el callout inicio?*/
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+    align-items:center;
+    background-color: brown;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 25px;
+    border-radius:20px;       
+}
+
+.piePag {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.piePag .piePag__p {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.intraText {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:20px;
+}
+
+.tabla {
+    color:rgb(2, 122, 102);
+    text-align: center;
+
+}
+
+.textoTienda {
+    padding: 50px;
+    text-align: center;
+
+}
+
